@@ -1,2 +1,2 @@
 import mysql.connect
-from mysql.connector 
+from mysql.connector
