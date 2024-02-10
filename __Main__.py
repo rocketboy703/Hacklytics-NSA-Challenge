@@ -1,2 +1,3 @@
-import mysql.connect
-from mysql.connector
+import mysql.connector
+from mysql.connector import error
+import pandas as pd
