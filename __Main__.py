@@ -63,7 +63,7 @@ def read_query(connection, query):
         print(f"Error: '{err}'")
 
 pw = "JrSwann22"
-# Create the connection to MySQL server
+#Create the connection to MySQL server
 connection = create_server_connection("localhost", "root", pw)
 
 create_employee_table = """
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS employee (
 
 create_database_query = "CREATE DATABASE IF NOT EXISTS Employee_Events"
 create_database(connection, create_database_query)
-connection = create_db_connection("localhost", "root", pw, "Employee_Events") # Connect to the Database
+connection = create_db_connection("localhost", "root", pw, "Employee_Events") #Connect to the Database
 execute_query(connection, create_employee_table) #Execute our defined query
 
 employee_list = """
